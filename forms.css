@@ -1,0 +1,8 @@
+table, th, td {
+    border: 1px solid rgb(3, 92, 64);
+    border-radius: 10px;
+}
+th, td {
+    padding: 10px;
+    border-color: #96D4D4;
+}

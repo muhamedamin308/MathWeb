@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse:separate;
+        }
+    </style>
+</head>
+<body>
+    <h1>Assignment 1</h1>
+    <form action="" style="display: flex;">
+        <fieldset>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th colspan="3">Value</th>
+                </tr>
+                <tr>
+                    <td>Name</td>
+                    <td><input id="name" type="text" placeholder="Enter Your Name"></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td><input id="male" name="gender" type="radio" value=1> Male <br>
+                        <input id="female" name="gender" type="radio" value=0  checked="checked"> Female <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Language</td>
+                    <td> 
+                        <select multiple="multiple">
+                            <option value="english">English</option>
+                            <option value="arabic">Arabic</option>
+                            <option value="frensh">Frensh</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Comment</td>
+                    <td>
+                        <textarea id="comment" name="area" rows="4" cols="50" placeholder="Type Anything Here Please...."></textarea>
+                    </td>
+                </tr>
+            </table>
+            <input type="submit" value="Send" class="submit" style="text-align: center; display: flex; margin: auto;">
+            <input type="reset" value="reset" class="reset" style="text-align: center; display: flex; margin: auto; display: block;">
+        </fieldset>
+    </form>
+</body>
+</html>

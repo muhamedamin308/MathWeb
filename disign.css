@@ -1,0 +1,20 @@
+div {
+    text-align: center;
+    border: 5px solid;
+    border-radius: 35px;
+    padding: 30px;
+}
+
+.btn {
+    margin: 5px;
+	border-radius:6px;
+	border:1px solid;
+	display:inline-block;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+}
+
+.in {
+    margin: 10px;
+}
